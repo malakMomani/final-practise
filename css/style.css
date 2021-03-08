@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Ribeye+Marrow&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  height: 400px;
+  background-image: url(https://www.iamexpat.de/sites/default/files/styles/article--full/public/general-practitioners-gps-germany.jpg?itok=j8OikpEM);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#logo {
+  display: inline-block;
+  margin-right: 3px;
+  margin: 0 auto;
+}
