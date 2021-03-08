@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Ribeye+Marrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
 
 * {
   box-sizing: border-box;
@@ -12,8 +13,130 @@ header {
 }
 
 #logo {
-  display: inline;
-  float : left;
   margin-right: 3px;
   margin: 0 auto;
+  font-family: 'Ribeye Marrow', cursive;
+  position: absolute;
+  left: 50vw;
+  top : 2vh;
+}
+
+#logo img {
+  display: inline-block;
+  width: 30%;
+}
+
+#logo h1 {
+  font-size: xx-large;
+  display: inline-block;
+}
+
+#navheader {
+ position: relative;
+ top :25vh;
+ left : 49vw;
+ 
+}
+
+
+#navheader nav ul li a {
+
+  float: left;
+  text-decoration: none;
+  display: inline;
+  margin-right: 2vw;
+  font-size: x-large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+}
+
+form {
+  margin : 0 auto;
+  margin-top: 3vh;
+  width: 50%;
+  font-family: 'RocknRoll One', sans-serif;
+}
+
+#name {
+  margin-right: 70px;
+}
+
+#status {
+  width: 50%;
+  height: 100px;
+}
+
+fieldset{
+	border-radius: 10px;
+	margin: 0px 0px 10px 0px;
+	border: 1px solid #9ce0ff;
+	padding: 20px;
+	background: #ccf9ff;
+	box-shadow: inset 0px 0px 15px #5bcbff;
+	
+}
+
+#doctor {
+  margin-right: 150px;
+}
+
+option {
+  width: 30%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(66, 38, 0);
+  background-color: burlywood;
+}
+
+#submit {
+  float: right;
+  width: 20%;
+  height: 50px;
+  font-size: large;
+  font-family: sans-serif;
+  border-radius: 330px;
+  border-style: groove;
+  transition: ease-in 0.5s;
+}
+
+#submit:hover 
+{
+  background-color: rgb(74, 74, 255);
+  color: #9ce0ff;
+}
+  
+table {
+  width : 80%;
+  margin : 0 auto;
+  border: #38677e solid 2px;
+  border-collapse: collapse;
+}
+
+thead {
+  font-size: large;
+  font-weight: bold;
+  width: 20%;
+  border: #38677e solid 2px;
+  border-collapse: collapse;
+}
+thead tr th {
+  width:180px;
+  height:50px;
+  border: #9ce0ff solid 1px;
+  border-collapse: collapse;
+  text-align: center;
+  padding-top: 15px;
+}
+
+tbody {
+  width: 20%;
+  border: #38677e solid 2px;
+  border-collapse: collapse;
+}
+
+tbody tr td {
+  height: 30px;
+  border: #9ce0ff solid 1px;
+  border-collapse: collapse;
+  text-align: center;
+  padding-top: 8px;
 }
