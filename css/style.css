@@ -12,7 +12,8 @@ header {
 }
 
 #logo {
-  display: inline-block;
+  display: inline;
+  float : left;
   margin-right: 3px;
   margin: 0 auto;
 }
